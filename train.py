@@ -52,7 +52,7 @@ def main():
     #### options
     parser = argparse.ArgumentParser()
     parser.add_argument('-opt', type=str, help='Path to option YMAL file.', 
-                        default='/home/sk851/ntire/ncsr/confs/4X.yml')
+                        default='confs/4X.yml')
     parser.add_argument('--launcher', choices=['none', 'pytorch'], default='none',
                         help='job launcher')
     parser.add_argument('--local_rank', type=int, default=-1)

@@ -33,7 +33,8 @@ datasets:
   train:
     name: CelebA_160_tr
     mode: LRHR_IMG
-    dataroot_GT: /media/deepest/div2k/  ###IMAGE FOLDER
+#    dataroot_GT: /media/deepest/div2k/  ###IMAGE FOLDER
+    dataroot_GT:
     #dataroot_LQ: datasets/DF2K-tr_X4.pklv4 ### do not need if mode == LRHR_IMG
     quant: 32
 
